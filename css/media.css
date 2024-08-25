@@ -1,0 +1,141 @@
+@media(max-width:992px)
+{
+    .burger{
+        display: block;
+    }
+    .nav_ul_div{
+display: none;
+    }
+    /* .nav_main{
+        display: none;
+    } */
+    
+    #nav_list.open{
+       display: flex;
+        flex-direction: column;
+       
+        background-color: rgba(0, 0, 0, 0.842);
+        filter: blur(100%);
+        
+    }
+    #nav_div.show{
+       display: block;
+       position:absolute;
+       top: 70px;
+       width: 100%;
+    }
+    #nav_icon{
+        transition: all 0.5s ease;
+    }
+    #nav_icon.display{
+        display: block;
+        position:absolute;
+       top: 240px;
+       width: 100%;
+       background-color: rgba(0, 0, 0, 0.842);
+display: flex;
+justify-content: center;
+    }
+    .main_text_div{
+        width: 50%;
+        /* text-align: center; */
+    }
+    .main_img_div{
+        width: 40%;
+    }
+    .about{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about_me1{
+        width: 50%;
+            } 
+    .about_me_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_me_flex_img{
+width: 100%;
+
+    }
+    .about_me_flex_img img{
+        width:100%;
+    }
+    .about_me_flex_text{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:768px)
+{
+    .main_text_div{
+        width: 100%;
+        /* background-color: aqua; */
+        margin: 20px;
+        text-align: center;
+    }
+    .main_img_div{
+        margin: auto;
+        width: 80%;
+        /* background-color: black; */
+    
+    }
+    .main_1{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .my_card{
+        display: flex;
+        /* flex-wrap: wrap; */
+        
+    }
+    
+    .Footer_c_1{
+        width: 100%;
+        text-align: center;
+    }
+    .Footer_c_2{
+        width: 100%;
+    }
+    .Footer_c_3{
+        width: 100%;
+        text-align: center;
+    }
+    .foot_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .Footer_c_1_3{
+            display: flex;
+            justify-content: center;
+        }
+}
+@media(max-width:532px)
+{
+ .about_me_text_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }   
+ .about_me_text_1{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+ }
+ .about_me_text_2{
+    margin-bottom: 20px;
+    border-radius: 20px;
+ }
+}
+@media(max-width:767px)
+{
+    .my_card{
+        align-items: center;
+    }
+    .my_card div{
+        width: 100%;
+    }
+}

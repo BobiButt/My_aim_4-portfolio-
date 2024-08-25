@@ -1,8 +1,39 @@
 nav{
     /* background-color: #1D1447; */
-    align-items: center;
-    text-align: center;
+    
 }
+.nav_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_ul{
+    display: flex;
+    align-items: center;
+    margin-top:23px ;
+}
+.nav_ul_div{
+    display: flex;
+}
+.nav_ul li a{
+    transition: all 0.4s ease;
+    color: white;
+}
+.nav_ul li a:hover{
+    color: black;
+    background-color: aqua;
+}
+.nav_ul2{
+    margin-top:23px ;
+
+}
+/* .nav_ul2 a{
+    transition: all 0.5s ease;
+}
+.nav_ul2 li a:hover{
+    background-color: transparent;
+
+} */
 nav ul li a i{
 font-size: 20px;
 padding-top: 4px;
@@ -14,4 +45,14 @@ color: white;
     font-family: "Matemasie", sans-serif;
 
     
+}
+.burger{
+    display:none;
+    
+}
+.burger div{
+width: 23px;
+height: 4px;
+background-color: white;
+margin: 5px;
 }
